@@ -17,7 +17,29 @@
     <title>Кэпитал Техинвест - Лидер IT аутсорсинга</title>
 </head>
 <body>
+<div class="b-mobile-header_wrapper">
+<div class="b-mobile-header d-none">  
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    
+    <div class="b-mobile-menu d-none">
+        <ul class="nav-links">
+            <li><a href="/">Главная</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="#numbers">О нас</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+    </div>
+</div>
+       
 <header>
+    
+
     <div class="container">
        <div class="wrapper">
         <div class="header__title vert-center fs20"><span>ООО “Капитал Техинвест”</span></div>
@@ -34,4 +56,5 @@
        </div>
     </div>
 </header>
+
 <main>

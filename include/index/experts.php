@@ -3,7 +3,7 @@
         <div class="b-article fs-25 d-flex ">
             <h2><span>Экспертные</span><br>навыки</h2>
             <p>Специалисты нашей организации владеют экспертными навыками в следующих областях:</p>
-            <div class="row row-cols-2">
+            <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col">
                     <ul>
                         <li>Опыт работы с офисными АТС LG, Panasonic; Awaya, FreePBX, Asterisk.
@@ -28,7 +28,7 @@
                 
             </div>
             <div class="secondary-primary-btn">
-                    <a href="#orderService"><span>Заказать бесплатную консультацию</span></a>
+                    <a href="#orderService" class="c-serviceOrder">Заказать бесплатную консультацию</a>
                 </div>
         </div>
     </div>

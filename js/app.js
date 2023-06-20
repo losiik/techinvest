@@ -15,7 +15,7 @@ async function postData(url, data = {}) {
 postData('http://146.185.209.31:9191/api/business_automation/');
  
 $(document).ready(function(){
-
+// open modals
     var Links = $('.b-service-btn').map(function() {
         var link = $(this).attr('href');
          $(this).on( "click", function() {
@@ -33,7 +33,6 @@ $(document).ready(function(){
             })
           });
       });
-
         $('.c-serviceOrder').on( "click", function() {
             var link = $(this).attr('href');
             $('#orderService').removeClass('d-none');
@@ -45,13 +44,26 @@ $(document).ready(function(){
         
         });
        
- 
-     
 
-     
+        // show hamburger menu
+ 
+        if($(window).width() < 1085){
+            $(".b-mobile-header").removeClass('d-none').addClass('d-block');
+            $(".b-mobile-menu").removeClass('d-none').addClass('d-block');
+           
+            $("header .wrapper").removeClass('d-block').addClass('d-none');
+         }
+         $('#hamburgerMenu').click(function() {
+            $(this).toggleClass('active');
+            $('.b-mobile-menu').toggleClass('c-menu-shown')
+          });
+         
+        
+
+    //плавующий хедер
 
     const onScrollHeader = () => { 
-        const header = $('header') 
+        const header = $('header, .b-mobile-header') 
         let prevScroll = $(window).scrollTop() 
         let currentScroll 
         $(window).scroll(() => { 
@@ -63,21 +75,30 @@ $(document).ready(function(){
           if (currentScroll < prevScroll && headerHidden()) { 
             header.removeClass('header_hidden') 
           }
-          prevScroll = currentScroll
+          prevScroll = currentScroll;
+          
         })
+       
       }
-    
+      if ($(window).width() < 1085) { 
+        $('header').addClass('d-none') 
+      }
       onScrollHeader();
     
-
+ // smooth scroll
     $(document).on('click', 'a[href^="#"]', function (event) {
+        
         event.preventDefault();
-    
+        $('.b-mobile-menu').toggleClass('c-menu-shown');
+        $('#hamburgerMenu').toggleClass('active');
         $('html, body').animate({
             scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
     });
 
+
+
+    //slick - slider
     $('.reviews_body').slick({
         infinite: true,
         slidesToShow: 1,
@@ -88,6 +109,9 @@ $(document).ready(function(){
         nextArrow: '<div class="b-btn__slider_next"><svg width="31" height="141" viewBox="0 0 31 141" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.67304 141L31 70.5L4.67304 0L0 12.5137L21.6539 70.5L0 128.486L4.67304 141Z" fill="#5B48EE"/></svg></div>',
     });
     
+
+
+    //обработчик форм
     $("#contactUs").submit(function(e) {
             e.preventDefault(); 
             $('.l-form_primary-btn').addClass( "d-none" )
@@ -110,6 +134,7 @@ $(document).ready(function(){
                     $('.l-form_primary-btn').prop('disabled', false)
                     $('#contactUs')[0].reset();
                 }
+                // проверки на ошибки
             }); 
         });
         $("#contactUsFooter").submit(function(e) {
@@ -134,6 +159,7 @@ $(document).ready(function(){
                     $('.l-form_primary-btn').prop('disabled', false)
                     $('#contactUsFooter')[0].reset();
                 }
+                // проверки на ошибки
             }); 
         });
 });

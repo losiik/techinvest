@@ -2,8 +2,8 @@
     <div class="container">
        <div class="b-article">
         <h2>Преимущества</h2>
-        <div class="row row-cols-lg-3">
-            <div class="col b-article__advs_item">
+        <div class="row row-cols-1 row-cols-lg-3">
+            <div class="col mb-3 b-article__advs_item">
                 <div class="b-article__advs_item_circle">
                     <img src="/img/lock.svg" alt="">
                 </div>
@@ -15,7 +15,7 @@
 
                 </div>
             </div>
-            <div class="col b-article__advs_item">
+            <div class="col mb-3 b-article__advs_item">
                 <div class="b-article__advs_item_circle">
                      <img src="/img/acute.svg" alt="">
                 </div>
@@ -27,7 +27,7 @@
 
                 </div>
             </div>
-            <div class="col b-article__advs_item">
+            <div class="col mb-3 b-article__advs_item">
                 <div class="b-article__advs_item_circle">
                     <img src="/img/wallet.svg" alt="">
                 </div>
@@ -41,7 +41,7 @@
 
         </div>
         <div class="secondary-primary-btn">
-            <a href="/">ПОЗВОНИТЬ</a>
+            <a class="c-serviceOrder" href="#orderService">ПОЗВОНИТЬ</a>
         </div>
        </div>
     </div>

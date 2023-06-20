@@ -325,6 +325,7 @@
     </div>
     <div class="b-modal position-fixed d-none" id="video">
        <div class="b-modal-body">
+        
             <div class="header_modal">
                 <div class="container">
                 <div class="wrapper">
@@ -377,10 +378,10 @@
        <div class="b-modal-body">
             <section class="i-section">
             <div class="container">
-                <div class="b-modal-title service-title lh-100 mb-3 text-center">Бесплатная консультация<br>ПН-ПТ 8.00 - 22.00</div>
+                <div class="b-modal-title service-title  fs-lg-20 lh-100 mb-3 text-center">Бесплатная консультация<br>ПН-ПТ 8.00 - 22.00</div>
                 <div class="b-modal-phoneBtn"><a href="tel:+74957999630">+7-495-799-96-30</a></div>
-                <div class="b-modal-title service-title mb-5 mt-5 text-center">Или</div>
-                <div class="b-modal-title service-title mb-3 text-center p-30">Оставьте контактную информацию и мы с вами свяжемся</div>
+                <div class="b-modal-title service-title mb-lg-5 fs-lg-35 mt-lg-5 text-center">Или</div>
+                <div class="b-modal-title service-title mb-lg-3  fs-lg-20 text-center p-30">Оставьте контактную информацию и мы с вами свяжемся</div>
                 <?php include($_SERVER['DOCUMENT_ROOT']."/include/index/form_main.php");?>
                 <div class="b-close-btn mt-5">назад</div>
             </div>
@@ -395,7 +396,7 @@
        <div class="wrapper">
         <div class="footer__title vert-center fs20"><span>ООО “Капитал Техинвест”</span></div>
         <div class="footer__menu">
-            <ul class="d-flex fs20">
+            <ul class="d-lg-flex d-block fs20">
             <li><a href="/">Главная</a></li>
                 <li><a href="#services">Услуги</a></li>
                 <li><a href="#contacts">Контакты</a></li>

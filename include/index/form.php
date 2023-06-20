@@ -5,15 +5,15 @@ $api_key = "" ;
 <form method="POST" name="contactUsFooter" id="contactUsFooter" action="/form/smart.php">
 
     <div class="form-item mt-2 mb-4">
-        <input type="text" name="user_name" id="user_name" class="user_name form-input" required>
+        <input type="text" name="user_name_footer" id="user_name_footer" class="user_name_footer form-input" required>
         <label class="form-label">*Ваше имя</label>
     </div>
     <div class="form-item mb-4">
-        <input type="text" id="user_phone" name="user_phone" class="user_phone form-input" required>
+        <input type="text" id="user_phone_footer" name="user_phone_footer" class="user_phone_footer form-input" required>
         <label class="form-label">*Номер телефона</label>
     </div>
     <div class="form-item mb-4">
-        <textarea id="user_message" name="user_message" class="user_message form-input" pattern=""></textarea>
+        <textarea id="user_message_footer" name="user_message_footer" class="user_message_footer form-input" pattern=""></textarea>
         <label class="text_area form-label">Опишите ваш вопрос</label>
     </div>
     <button type="submit" class="l-form_primary-btn">Отправить заявку</button>

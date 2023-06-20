@@ -10,8 +10,10 @@
                 <div class="b-article__services_link"><a href="#setUpNetwork" class="b-service-btn">Настройка сетевого оборудования</a></div>
                 <div class="b-article__services_link"><a href="#phoneSupport" class="b-service-btn">Обслуживание телефонии</a></div>
                 <div class="b-article__services_link"><a href="#businessAutomatisation" class="b-service-btn">Автоматизация бизнеса</a></div>
-                <div class="secondary-primary-btn d-flex mt-2 align-items-center justify-content-center"><a href="#">ПОЗВОНИТЬ</a></div>
+                <div class="secondary-primary-btn d-none d-lg-flex mt-2 align-items-center justify-content-center c-serviceOrder"><a href="#">ПОЗВОНИТЬ</a></div>
                 <div class="b-article__services_link"><a href="#video" class="b-service-btn">Видеонаблюдение</a></div>
+                <div class="secondary-primary-btn d-flex d-lg-none mt-2 align-items-center justify-content-center c-serviceOrder"><a href="#">ПОЗВОНИТЬ</a></div>
+
             </div>
         </div>
     </div>
