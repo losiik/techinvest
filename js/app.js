@@ -565,11 +565,11 @@ $(document).ready(function(){
                 var formData = {"message":`Пользователь оставил свои данные (форма услуг):\nИмя: ${userName} \nТелефон: ${userPhone}\nСообщение: ${userMessage}`};
             $.ajax({
                 type: "POST",
-                url: location.protocol + '//' + location.host + PORT + '/api/send_email/',
+                url: HOST + PORT + '/api/send_email/',
                 data: formData,
                 dataType: "json",
                 encode: true,
-                done: function()
+                success: function()
                 {
                     $('.l-form_loading').removeClass( "d-block" ).addClass( "d-none " )
                    
@@ -597,11 +597,11 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             // url: 'http://146.185.209.31:9191/api/send_email/',
-            url: location.protocol + '//' + location.host + PORT + '/api/send_email/',
+            url: HOST + PORT + '/api/send_email/',
             data: formData,
             dataType: "json",
             encode: true,
-            done: function()
+            success: function()
             {
                 $('.l-form_loading').removeClass( "d-block" ).addClass( "d-none " )
                 
