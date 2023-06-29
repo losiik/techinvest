@@ -1,4 +1,5 @@
 const HOST = location.protocol + '//' + location.host;
+const PORT = ':9191';
 
 function getMaxOfArray(numArray) {
     return Math.max.apply(null, numArray);
@@ -440,27 +441,27 @@ async function postData(url, data = {}) {
 // postData('http://146.185.209.31:9191/api/main_page/');
 
 
-postData(HOST + '/api/business_automation/');
+postData(HOST + PORT + '/api/business_automation/');
  
-postData(HOST + '/api/contacts/');
+postData(HOST + PORT + '/api/contacts/');
 
-postData(HOST + '/api/review/');
+postData(HOST + PORT + '/api/review/');
 
-postData(HOST + '/api/server_outsourcing/');
+postData(HOST + PORT + '/api/server_outsourcing/');
 
-postData(HOST + '/api/virtualization/');
+postData(HOST + PORT + '/api/virtualization/');
 
-postData(HOST + '/api/computer_monitoring/');
+postData(HOST + PORT + '/api/computer_monitoring/');
 
-postData(HOST + '/api/video_surveillance/');
+postData(HOST + PORT + '/api/video_surveillance/');
 
-postData(HOST + '/api/maintenance_1C/');
+postData(HOST + PORT + '/api/maintenance_1C/');
 
-postData(HOST + '/api/maintenance_telephony/');
+postData(HOST + PORT + '/api/maintenance_telephony/');
 
-postData(HOST + '/api/network_equipment/');
+postData(HOST + PORT + '/api/network_equipment/');
 
-postData(HOST + '/api/main_page/');
+postData(HOST + PORT+ '/api/main_page/');
 
 
 
@@ -564,7 +565,7 @@ $(document).ready(function(){
                 var formData = {"message":`Пользователь оставил свои данные (форма услуг):\nИмя: ${userName} \nТелефон: ${userPhone}\nСообщение: ${userMessage}`};
             $.ajax({
                 type: "POST",
-                url: location.protocol + '//' + location.host + '/api/send_email/',
+                url: location.protocol + '//' + location.host + PORT + '/api/send_email/',
                 data: formData,
                 dataType: "json",
                 encode: true,
@@ -596,7 +597,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             // url: 'http://146.185.209.31:9191/api/send_email/',
-            url: location.protocol + '//' + location.host + '/api/send_email/',
+            url: location.protocol + '//' + location.host + PORT + '/api/send_email/',
             data: formData,
             dataType: "json",
             encode: true,
