@@ -117,10 +117,10 @@ async function postData(url, data = {}) {
                                 var ListLeft = UList.length - ListRight
 
                                 for (var i = 0; i < ListRight; i++) {
-                                    result_right += '<li>' + UList[i] + '</li>'
+                                    result_left += '<li>' + UList[i] + '</li>'
                                 }
                                 for (var i = ListRight; i < UList.length; i++) {
-                                    result_left += '<li>' + UList[i] + '</li>'
+                                    result_right += '<li>' + UList[i] + '</li>'
                                 }
                                 UListLeft.innerHTML = result_left;
                                 UListRight.innerHTML = result_right;
