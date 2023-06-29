@@ -528,6 +528,11 @@ textarea {
     transition: all .5s;
     overflow-y: auto;
 }
+.b-modal .i-section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .b-modal-body {
     overflow-y: auto;
     margin: 0 auto;

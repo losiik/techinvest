@@ -2,7 +2,7 @@
 $api_key = "" ; 
 // header('');
 ?>
-<form method="POST" name="contactUsFooter" id="contactUsFooter" action="/form/smart.php">
+<form method="POST" name="contactUsFooter" id="contactUsFooter" action="">
 
     <div class="form-item mt-2 mb-4">
         <input type="text" name="user_name_footer" id="user_name_footer" class="user_name_footer form-input" required>

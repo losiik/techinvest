@@ -23,7 +23,7 @@
                 <div class="b-modal-title mb-3">Аутсорсинг серверов</div>
                 <div class="b-modal-description">Чаще всего собственным серверным парком обладает средний либо крупный бизнес, который нуждается в собственной инфраструктуре для решения своих IT задач. Иными словами, серверный парк имеют компании, серьезно относящиеся к своему развитию и требующими эффективной работы каждого звена в компании, которые активно используют качественные IT-решения.</div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                             <li>Обновление системного программного обеспечения, анализ журналов, устранение ошибок, мониторинг доступности;</li>
                             <li>Устранение неисправностей, замена комплектующих, модернизация;</li>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/outsorcing.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -67,7 +67,7 @@
                 <div class="b-modal-title mb-3">Виртуализация</div>
                 <div class="b-modal-description">Сегодня технология виртуализации широко распространена и активно используется производителями оборудования и программного обеспечения. Применение технологий виртуализации в ИТ-инфраструктуре имеет массу преимуществ как для технических специалистов, которые с ними работают, так и для руководителей бизнеса.</div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                          <li>Виртуализация серверов — разделение физических серверов на виртуальные, создание виртуальных отказоустойчивых кластеров из множества физических серверов.</li>
                          <li>Виртуализация рабочих станций (VDI): позволяет разместить множество рабочих столов и управлять ими на одном централизованном сервере или комплексе (VMware, Microsoft Hyper-V).</li>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/virtual.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -85,7 +85,7 @@
         </div>
        </section>
     </div>
-    <div class="b-modal position-fixed d-none" id="1CSupport">
+    <div class="b-modal position-fixed d-none" id="maintenance_1C">
        <div class="b-modal-body">
             <div class="header_modal">
                 <div class="container">
@@ -109,7 +109,7 @@
                 <div class="b-modal-title mb-3">Сопровождение программных продуктов 1С</div>
                 <div class="b-modal-description">Осуществляем полный комплекс услуг по 1с: Подбор типового решения, внедрение, доработка, обновление, перенос данных и консультация по ведению БД.</div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                          <li>Подберем конфигурации для ваших нужд, с последующей интеграцией.</li>
                          <li>Внедрим любую типовую конфигурацию</li>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/1csupport.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -155,7 +155,7 @@
                 <div class="b-modal-title mb-3">Обслуживание компьютера </div>
                 <div class="b-modal-description">это комплексная услуга, включающая в себя целый спектр сопутствующих IT-услуг, таких как: </div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                             <li>Различные работы по обслуживанию системного блока компьютера, монитора;</li>
                             <li>Настройка программного обеспечения рабочей станции;</li>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/pcsupport.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -204,7 +204,7 @@
                 <div class="b-modal-title mb-3">Настройка сетевого оборудования</div>
                 <div class="b-modal-description">Локальная сетевая инфраструктура обеспечивает бесперебойный доступ сотрудников к корпоративным сервисам, интернету и корпоративным бизнес-приложениям. Организация качественной сети передачи данных, квалифицированное обслуживание компьютерных сетей и сетевого оборудования - первостепенная по важности задача для нас!</div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                          <li>Обслуживание сетевого оборудования: установка новых версий программного обеспечения, администрирование, устранение неполадок и координация ремонтов;</li>
                          <li>Администрирование серверных компонентов программного обеспечения, необходимых для функционирования локальных сетей;</li>
@@ -214,7 +214,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/networksetup.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -246,7 +246,7 @@
                 <div class="b-modal-title mb-3">Обслуживание телефонии</div>
                 <div class="b-modal-description">Наша компания предлагает услуги по обслуживанию АТС и IP телефонии в Москве. Наши специалисты обеспечат настройку конфигурации офисной телефонной сети, консультируем, осуществляем обслуживание для устранения рисков поломки оборудования. <br>Виртуальная IP телефония – новые возможности для ведения бизнеса. Звонки по IP можно сравнить с отправлением почты через e-mail – это дешево, комфортно и доступно повсюду, где имеется доступ к сети Интернет. Подключение и настройка облачной IP телефонии решает такие задачи, которые недоступны при применении стандартных телефонных устройств. В частности, с ее помощью можно формировать несколько линий связи и подключать десятки телефонов, которые будут одновременно работать через многоканальную связь.</div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                          <li>Простая настройка сценариев звонков;</li>
                          <li>Интеграция с CRM, Битрикс24 и другими внешними сервисами;</li>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/phonesupport.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -293,8 +293,8 @@
                 <div class="b-modal-title mb-3">Автоматизация бизнеса</div>
                 <div class="b-modal-description"></div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7">
-                        <ul>
+                    <div class="col-sm-12 col-lg-7 d-flex">
+                    <ul>
                          <li>Работа с основными справочником (товары, контрагенты, группы, альбомы и т.д.)</li>
                          <li>Ведение структуры завода, работа со списком оборудования завода  </li>
                          <li>Ведение списка технологических операций с разбиением по типам оборудования</li>
@@ -311,11 +311,11 @@
                          <li>Подсистема отчетности по заказу на производство</li>
                          <li>Подсистема ввода информации о выполненных операциях по заказу на производство</li>
                          <li>Подсистема диспетчирования активных заказов на производство</li>
-                        </ul>
+                    </ul>
                     </div>
-                    <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <img src="/img/auto.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -351,7 +351,7 @@
 в ресторанах, магазинах, торговых и офисных центрах, 
 на объектах социального назначения (стадионы, вокзалы, больницы др.). Установка видеонаблюдения также широко востребована для охраны частных коттеджей, подъездов жилых многоэтажных домов. </div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7  d-flex justify-content-between flex-column">
+                    <div class="col-sm-12 col-lg-7 d-flex justify-content-between flex-column-reverse flex-lg-column ">
                         <ul>
                          <li>Проектирование систем видеонаблюдения</li>
                          <li>Подбор оборудования 
@@ -364,7 +364,7 @@
                     </div>
                     <div class="col-sm-12 col-lg-5 d-flex justify-content-between flex-column">
                         <img src="/img/video.svg" alt="">
-                        <div class="b-serviceOrder-btn c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
+                        <div class="b-serviceOrder-btn mt-4 mb-4 c-serviceOrder"><a href="#orderService">Заказать бесплатную консультацию</a></div>
                     </div>
                 </div>
                 <div class="b-close-btn mt-5">назад</div>
@@ -413,7 +413,11 @@
   src="https://code.jquery.com/jquery-3.7.0.min.js"
   integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
   crossorigin="anonymous"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="/js/app.js" ></script>
+
+<script src="/js/app.js"></script>
+<script src="/js/slick.js" ></script>
+<script src="/js/slick-slider.js" ></script>
+
+
 </body>
 </html>

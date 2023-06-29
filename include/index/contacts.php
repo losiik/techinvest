@@ -19,7 +19,7 @@
                     </div>
                     <h4>Адрес</h4>
                     <div class="b-article_contacts_content">
-                    <a href="https://yandex.ru/maps/-/CCU9jMS6hA" target="_blank">121471, Москва г, ул Рябиновая, д. 40, стр. 1, офис 405</a>
+                    <a href="https://yandex.ru/maps/-/CCU9jMS6hA" id="adress" target="_blank">121471, Москва г, ул Рябиновая, д. 40, стр. 1, офис 405</a>
                     </div>
                     <h4>Почта</h4>
                     <div class="b-article_contacts_content">
