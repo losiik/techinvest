@@ -5,7 +5,7 @@
             <div class="b-article__gridContainer d-grid">
                 <a href="#outsourcingServers" class="b-article__services_link b-service-btn">Аутсорсинг серверов</a>
                <a href="#virtualisation" class="b-article__services_link b-service-btn">Виртуализация</a>
-                <a href="#1CSupport" class=" b-article__services_link b-service-btn">Сопровождение программных продуктов 1С</a>
+                <a href="#maintenance_1C" class=" b-article__services_link b-service-btn">Сопровождение программных продуктов 1С</a>
                 <a href="#PCSupport" class="b-article__services_link b-service-btn">Обслуживание компьютеров</a>
                 <a href="#setUpNetwork" class=" b-article__services_link b-service-btn">Настройка сетевого оборудования</a>
                 <a href="#phoneSupport" class="b-article__services_link b-service-btn">Обслуживание телефонии</a>
